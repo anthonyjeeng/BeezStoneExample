@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "5nX4MP08tOcOx8rbTblkEJD+r/a5jbcGyIWYbutyTzt9P28AHmOIerEUkCzYJhZCHqXA3v11Uenwsyx5+S2sNg==",
+  "dgSpecHash": "b+5fiUUsIPh1LETLiU78DapCLORSmeDUP3yncSHzUdOF/MoabjtRk+kxYU3cTPRgZt6uUzmJc8TmR3sQ2L6llg==",
   "success": true,
   "projectFilePath": "C:\\Users\\elkan\\OneDrive\\Documentos\\Visual Studio 2022\\projectsAPI\\BeezStoneExample\\BeezStoneExample_API\\BeezStoneExample_API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\elkan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\elkan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\elkan\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\elkan\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\elkan\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
