@@ -1,5 +1,7 @@
 using BeezStoneExample_API;
 using BeezStoneExample_API.Datos;
+using BeezStoneExample_API.Repositorio;
+using BeezStoneExample_API.Repositorio.IRepositorio;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,6 +19,9 @@ builder.Services.AddDbContext<ApplicationDBContext>(option =>
 });
 
 builder.Services.AddAutoMapper(typeof(MappingConfig));
+
+builder.Services.AddScoped<IVillaRepositorio, VillaRepositorio>();
+builder.Services.AddScoped<INumeroVillaRepositorio, NumeroVillaRepositorio>();
 
 var app = builder.Build();
 

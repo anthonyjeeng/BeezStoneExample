@@ -14,6 +14,10 @@ namespace BeezStoneExample_API
 
             CreateMap<Villa, VillaCreateDto>().ReverseMap(); //otra manera para hacer lo de arriba
             CreateMap<Villa, VillaUpdateDto>().ReverseMap();
+
+            CreateMap<NumeroVilla, NumeroVillaDto>().ReverseMap();
+            CreateMap<NumeroVilla, NumeroVillaCreateDto>().ReverseMap();
+            CreateMap<NumeroVilla, NumeroVillaUpdateDto>().ReverseMap();
         }
     }
 }
